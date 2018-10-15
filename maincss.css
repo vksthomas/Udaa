@@ -1,0 +1,120 @@
+
+.header{
+    width:70%;
+    min-width: 400px;
+    position: relative;
+    left: 15%;
+    top:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#uda_img{
+    width: 100px;
+    height: 100px;
+}
+.my_info{
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+}
+#my_name{
+    font-size: 50px;
+    font-weight: 50;
+    font-family: Jazz LET, fantasy	;
+}
+
+#my_deg{
+      font-weight:80;
+      position: absolute;
+      top:65px;
+      right: 0px;
+      font-size: 20px;
+      font-family: Andale Mono, monospace	;
+}
+
+
+section .colors{
+    width : 100px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.colors{
+    width:50xp;
+    height: 100px;
+
+}
+#color_blue{
+    height: 75px;
+    background-color: #02b3e4;
+}
+#color_black{
+    height: 75px;
+    background-color: #2d3c49;
+}
+#color_grey{
+    height: 75px;
+    background-color: #7d97ad;
+}
+.color_text{
+    position: absolute;
+    right: 0px;
+    font-size: 100%;
+    color: grey;
+    font-weight: 1em;
+}
+
+#bar{
+    background-color: grey;
+    width:70%;
+    left: 15%;
+    height:5px;
+    position: absolute;
+    top:140px;
+
+}
+#img_prop{
+    width: 70%;
+    height: 500px;
+    border: 3px solid black;
+    position: absolute;
+     top:160px;
+     left: 15%;
+}
+
+.main_class{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 250px;
+    height: 300px;
+}
+.main_img {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+}
+.main_img_id{
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 1100px)
+{
+    
+    .flexx_side_section{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 550px)
+{
+  .my_info{
+          display: block;
+}
+#img_prop{
+    height: 200px;
+}
